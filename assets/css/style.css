@@ -61,16 +61,6 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
@@ -92,6 +82,18 @@ Also put this before the benefits section as this includes h2, which should go b
 .information h2 {
     margin-bottom: 20px;
     font-size: 36px; }
+
+/* Placed class selectors .float-left and .float right below .information selectors to follow semantic structure */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
 .benefits {
     margin-right: 20px;
